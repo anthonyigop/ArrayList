@@ -16,13 +16,11 @@ public class Inventroy_System {
     String name;
     int quantity;
 
-    // Constructor
     Item(String name, int quantity) {
         this.name = name;
         this.quantity = quantity;
     }
 
-    // Method to display item details
     void display() {
         System.out.println("Item: " + name + ", Quantity: " + quantity);
     }
